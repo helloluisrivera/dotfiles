@@ -1,0 +1,4 @@
+# Load .bashrc here because apparrently who knows if they both will load at the same time all the time.
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
